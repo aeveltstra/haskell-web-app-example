@@ -1,0 +1,12 @@
+{ 
+	"status": 200, 
+	"description": "OK",
+	"title": "Example Haskell Web Application",
+	"data": "We can respond to requests that accept content-type application/json!",
+	"next": [
+		{"url": "./hello", "title": "Hello! A known response" },
+		{"url": "./foo", "title": "Foo: A 404-not-found response" },
+		{"url": "./bar/baz", "title": "Bar, Baz: Another 404 not-found response" }
+	]
+}
+
