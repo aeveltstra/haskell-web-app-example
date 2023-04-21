@@ -15,7 +15,7 @@ copyright:           CopyLeft
 category:            Web Applications
 build-type:          Simple
 extra-source-files:  README.md
-                     , CHANGELOG.txt
+                     , CHANGELOG.md
                      , index.html
                      , index.json
                      , index.txt
