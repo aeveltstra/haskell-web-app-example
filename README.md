@@ -7,3 +7,7 @@ For now we have settled on the WARP web server, which implements WAI as a genera
 WARP and WAI by themselves don't use a lot of dependencies. But WAI-Extra does. It's a pretty necessary addition for things like delivering GZipped content, logging, and JSON handling.
 
 Feel free to copy the source and use it to your benefit.
+
+To compile and install all the dependencies needed for this application (which is a LOT), make sure to:
+- install haskell and cabal using ghcup;
+- run: cabal install
