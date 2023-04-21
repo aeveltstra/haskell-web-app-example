@@ -11,3 +11,5 @@ Feel free to copy the source and use it to your benefit.
 To compile and install all the dependencies needed for this application (which is a LOT), make sure to:
 - install haskell and cabal using ghcup;
 - run: cabal install
+
+If running 'cabal install' results in errors due to a difference between your local version of the ghc installation, and the one expected, edit the cabal file in this package and specify a ghc version that is installed.
